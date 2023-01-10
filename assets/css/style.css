@@ -407,49 +407,87 @@ footer a {
     color: fuchsia;
 }
 
-.up {
-    position: fixed;
-    bottom: 1em;
-    right: 0;
+@media screen and (min-width: 700px) {
+    .up {
+        position: fixed;
+        bottom: 1em;
+        right: 0;
+    }
+    .up i {
+        color: rgb(210, 105, 103);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+    }
+    .top1 {
+        position: fixed;
+        top: 1em;
+        right: 0;
+    }
+    .top2 {
+        position: fixed;
+        top: 5em;
+        right: 0;
+    }
+    .top1 i {
+        color: rgb(32, 95, 138);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+    }
+    .top2 {
+        color: rgb(32, 95, 138);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40p;
+    }
 }
 
-.up i {
-    color: rgb(210, 105, 103);
-    background-color: rgba(211, 211, 211, 0.482);
-    border: 2px solid white;
-    border-radius: 6px;
-    width: 40px;
-    height: 40px;
-}
-
-.top1 {
-    position: fixed;
-    top: 1em;
-    right: 0;
-}
-
-.top2 {
-    position: fixed;
-    top: 5em;
-    right: 0;
-}
-
-.top1 i {
-    color: rgb(32, 95, 138);
-    background-color: rgba(211, 211, 211, 0.482);
-    border: 2px solid white;
-    border-radius: 6px;
-    width: 40px;
-    height: 40px;
-}
-
-.top2 {
-    color: rgb(32, 95, 138);
-    background-color: rgba(211, 211, 211, 0.482);
-    border: 2px solid white;
-    border-radius: 6px;
-    width: 40px;
-    height: 40p;
+@media screen and (max-width: 700px) {
+    .up {
+        position: fixed;
+        bottom: 0;
+    }
+    .up i {
+        color: rgb(210, 105, 103);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+    }
+    .top1 {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .top2 {
+        position: fixed;
+        bottom: 0;
+        left: 48%;
+    }
+    .top1 i {
+        color: rgb(32, 95, 138);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+    }
+    .top2 i {
+        color: rgb(32, 95, 138);
+        background-color: rgba(211, 211, 211, 0.482);
+        border: 2px solid white;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
