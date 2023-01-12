@@ -453,6 +453,7 @@ footer a {
     .up {
         position: fixed;
         bottom: 0;
+        right: 0;
     }
     .up i {
         color: rgb(210, 105, 103);
@@ -465,12 +466,12 @@ footer a {
     .top1 {
         position: fixed;
         right: 0;
-        bottom: 0;
+        bottom: 120px;
     }
     .top2 {
         position: fixed;
-        bottom: 0;
-        left: 48%;
+        bottom: 55px;
+        right: 0;
     }
     .top1 i {
         color: rgb(32, 95, 138);
@@ -498,6 +499,12 @@ footer a {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.top1 a i,
+.top2 a i,
+.up a i {
+    font-size: 50px;
 }
 
 @media print {
